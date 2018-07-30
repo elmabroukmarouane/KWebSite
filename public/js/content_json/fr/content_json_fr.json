@@ -1,0 +1,378 @@
+{
+  "header" : {
+    "header_langage" : "<span class='flag-icon flag-icon-fr'></span>",
+    "phone_header" : {
+      "href" : "tel:11683145016",
+      "caption" : "<i class='fa fa-phone'></i> +1 (168) 314 5016"
+    },
+    "email_header" : {
+      "href" : "mailto:info@bizlabxprt.com",
+      "caption" : "<i class='fa fa-envelope-o'></i> info@bizlabxprt.com"
+    },
+    "social_media_header" : {
+      "facebook" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='facebook_hover fa fa-facebook'></i>"
+      },
+      "twitter" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='twitter_hover fa fa-twitter'></i>"
+      },
+      "gplus" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='gplus_hover fa fa-google-plus'></i>"
+      },
+      "linkedin" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='linkedin_hover fa fa-linkedin'></i>"
+      },
+      "instagram" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='instagram_hover fa fa-instagram'></i>"
+      },
+      "github" : {
+        "href" : "javascript:void(0)",
+        "caption" : "<i class='github_hover fa fa-github'></i>"
+      }
+    },
+    "menu": {
+      "logo": {
+        "src": "",
+        "caption": "Logo FR"
+      },
+      "content": {
+        "home": "Accueil",
+        "about_us": "A propos de nous",
+        "who_us": "Qui Sommes Nous ?",
+        "team": "Notre Equipe",
+        "services": "Services",
+        "our_services": "Nos Services",
+        "assistant_it": "Assistant IT",
+        "blog" : "BLOG",
+        "contact": "Contactez Nous"
+      }
+    }
+  },
+  "newsletter" : {
+    "last_us" : "Recevez nos dernières actualités",
+    "newsletter_sign_up" : "Inscrivez-vous à notre newsletter",
+    "newsletter_email" : {
+      "placeholder" : "votre-email@domaine.com",
+      "msg_error_required" : "Veuillez entre votre email !",
+      "msg_error_email" : "Veuillez entre une adresse email valide !",
+      "msg_error_exsist" : "Cet email existe déjà !"
+    },
+    "newsletter_submit" : {
+      "before" : "Souscrire",
+      "pending" : "Envoi",
+      "after" : "Succès"
+    }
+  },
+  "footer" : {
+    "pre_footer" : {
+      "about" : {
+        "title" : "A propos de nous",
+        "content" : "Nous sommes une entreprise qui se spécialise dans le génie Web & Logiciel. Nos solutions sont pensées et conçues pour que les nouvelles technologies puissent apporter une nouvelle dimension à votre plateforme Web d’entreprise et vos outils de gestion intégrée."
+      },
+      "useful_links" : {
+        "title" : "Liens utiles",
+        "links" : [
+          {
+          "href" : "javascript:void(0)",
+          "caption" : "LINK 1"
+          },
+          {
+          "href" : "javascript:void(0)",
+          "caption" : "LINK 2"
+          },
+          {
+          "href" : "javascript:void(0)",
+          "caption" : "LINK 3"
+          },
+          {
+          "href" : "javascript:void(0)",
+          "caption" : "LINK 4"
+          },
+          {
+          "href" : "javascript:void(0)",
+          "caption" : "LINK 5"
+          }
+        ]
+      }
+    },
+    "post_footer" : {
+      "copyright" : "Copyright &copy; <span id='copyright_this_year'></span><script>var this_year = new Date().getFullYear(); if(this_year == '2018'){ $('#copyright_this_year').html(this_year); } else { $('#copyright_this_year').html('2018 - ' + this_year); }</script> Mozaik Development. Tous les droits sont réservés.",
+      "top_page" : "Haut"
+    }
+  },
+  "home": {
+    "nom_page" : "Accueil",
+    "banner" : [
+      {
+        "style_banner" : "background-image:url(images/back-banner-2.jpg)",
+        "headlines_banner" : "Nous vous aidons à développer votre entreprise",
+        "desc_banner" : "Démarrez votre projet aujourd'hui avec nous et soyez prêt à s'améliorer et à se développer !",
+        "a_banner" : {
+          "href" : "contactez-nous",
+          "caption" : "Contactez-Nous"
+        }
+      },
+      {
+        "style_banner" : "background-image:url(images/back-banner.jpg)",
+        "headlines_banner" : "Nous aimons communiquer !",
+        "desc_banner" : "Venez nous voir ou consultez-nous par email pour mieux discuter vos futurs projets.",
+        "a_banner" : {
+          "href" : "contactez-nous",
+          "caption" : "Contactez-Nous"
+        }
+      },
+      {
+        "style_banner" : "background-image:url(images/back-banner-3.jpg)",
+        "headlines_banner" : "Nous sommes une équipe creative et innovantes",
+        "desc_banner" : "Nous avons une équipe passionée, créative et innovante qui cherche toujours la perfection et a un seul but est de satisfaire la clientèle",
+        "a_banner" : {
+          "href" : "contactez-nous",
+          "caption" : "Contactez-Nous"
+        }
+      }
+    ],
+    "propos_nous" : {
+      "qui_sommes_nous" : "Qui sommes nous ?",
+      "prk_nous_choisir" : "Pourquoi nous choisir ?",
+      "content" : "Nous sommes des spécialistes en Développement Logiciel Maroc, une équipe avec des concepts frais et une passion pour une créativité orientée projets, sous une politique soulignée « DÉVELOPPER POUR MIEUX RÉPONDRE A VOS BESOINS ». <br />Essayez-nous! Nous visons toujours à excéder les espérances et exigences de nos clients.",
+      "a_propos_nous" : {
+        "href" : "javascript:void(0)",
+        "caption" : "En savoir plus ..."
+      },
+      "background" : {
+        "src" : "images/a_propos_nous/a_propos_nous.jpg",
+        "alt" : "Pourquoi nous choisir ?",
+        "title" : "Pourquoi nous choisir ?"
+      }
+    },
+    "services" : {
+      "ce_que_ns_offrons" : "Ce que nous offrons",
+      "title_nos_services" : "Nos Services",
+      "items_nos_services" : [
+        {
+          "icon" : "key",
+          "title" : "LOGICIEL SUR MESURE",
+          "content" : "Facilitez votre gestion interne avec du développement sur mesure. Un logiciel conçu spécialement pour vos besoins par une équipe à compétences polyvalentes.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "cloud",
+          "title" : "CLOUD COMPUTING",
+          "content" : "Sécurisez vos données les plus confidentiels et stockez-les sur des plateformes virtuelles. Nous vous offrons des solutions cloud sécurisées.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "linux",
+          "title" : "LOGICIEL STANDARD",
+          "content" : "Gérez vos données et opérations internes avec un système de gestion très performant pour gagner en termes de temps et de coûts.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "wordpress",
+          "title" : "SITE WEB INTERACTIF",
+          "content" : "Création de sites web interactif avec une interface ergonomique ; vitrine ou e-commerce. Soyez connu au prêt de votre cible, et présentez vos offres ou services en créant votre siteweb.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "apple",
+          "title" : "INFOGRAPHIE",
+          "content" : "Bénéficiez de la créativité et du professionnalisme de nos designers graphistes pour vous accompagner tout au long de votre stratégie de communication.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "bar-chart",
+          "title" : "REFERENCEMENT & SEO",
+          "content" : "Améliorer votre classement dans les moteurs de recherche tel que Google, Yahoo, Bing, etc. un par référencement naturel SEO afin d’augmenter le trafic de visiteurs sur votre site web.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "desktop",
+          "title" : "MATÉRIEL INFORMATIQUE",
+          "content" : "On vous offre une large gamme de produits informatiques diversifiés, choisis pour leurs haute qualité pour vous votre parc informatique.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        },
+        {
+          "icon" : "wrench",
+          "title" : "MAINTENANCE INFORMATIQUE",
+          "content" : "Installation, réparation et assistance avant, pendant et après votre achat en cas de problèmes techniques dans votre parc informatique.",
+          "a_items_nos_services" : {
+            "href" : "javascript:void(0)",
+            "caption" : "En savoir plus ..."
+          }
+        }
+      ],
+      "a_tous_nos_services" : {
+        "href" : "nos-services",
+        "caption" : "Tous les services"
+      }
+    },
+    "portfolio" : {
+      "li_filter" : [
+        {
+          "item_filter" : "all",
+          "caption_filter" : "All"
+        },
+        {
+          "item_filter" : "development",
+          "caption_filter" : "Development"
+        },
+        {
+          "item_filter" : "branding",
+          "caption_filter" : "Branding"
+        },
+        {
+          "item_filter" : "creative",
+          "caption_filter" : "Creative"
+        },
+        {
+          "item_filter" : "photography",
+          "caption_filter" : "Photography"
+        }
+      ],
+      "portfolio_items" : [
+        {
+          "class" : "item col-md-3 col-sm-12 mix development",
+          "src" : "images/projects/portfolio-4-1.jpg",
+          "alt" : "project-1",
+          "title" : "project-1",
+          "href" : "images/projects/portfolio-4-1.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Development"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix branding",
+          "src" : "images/projects/portfolio-4-2.jpg",
+          "alt" : "project-2",
+          "title" : "project-2",
+          "href" : "images/projects/portfolio-4-2.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Branding"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix branding creative",
+          "src" : "images/projects/portfolio-4-3.jpg",
+          "alt" : "project-3",
+          "title" : "project-3",
+          "href" : "images/projects/portfolio-4-3.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Creative"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix photography",
+          "src" : "images/projects/portfolio-4-4.jpg",
+          "alt" : "project-4",
+          "title" : "project-4",
+          "href" : "images/projects/portfolio-4-4.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Photography"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix development",
+          "src" : "images/projects/portfolio-4-5.jpg",
+          "alt" : "project-5",
+          "title" : "project-5",
+          "href" : "images/projects/portfolio-4-5.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Development"
+        },
+        {
+          "class" : "item col-md-6 col-sm-12 mix photography",
+          "src" : "images/projects/portfolio-6.jpg",
+          "alt" : "project-6",
+          "title" : "project-6",
+          "href" : "images/projects/portfolio-6.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Photography"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix photography",
+          "src" : "images/projects/portfolio-4-7.jpg",
+          "alt" : "project-7",
+          "title" : "project-7",
+          "href" : "images/projects/portfolio-4-7.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Photography"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix development",
+          "src" : "images/projects/portfolio-4-8.jpg",
+          "alt" : "project-8",
+          "title" : "project-8",
+          "href" : "images/projects/portfolio-4-8.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Development"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix photography",
+          "src" : "images/projects/portfolio-4-1.jpg",
+          "alt" : "project-9",
+          "title" : "project-9",
+          "href" : "images/projects/portfolio-4-1.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Photography"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix development",
+          "src" : "images/projects/portfolio-4-2.jpg",
+          "alt" : "project-10",
+          "title" : "project-10",
+          "href" : "images/projects/portfolio-4-2.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Development"
+        },
+        {
+          "class" : "item col-md-3 col-sm-12 mix photography",
+          "src" : "images/projects/portfolio-4-3.jpg",
+          "alt" : "project-11",
+          "title" : "project-11",
+          "href" : "images/projects/portfolio-4-3.jpg",
+          "data_lightbox" : "image-1",
+          "project_ico" : "paper-plane",
+          "project_caps" : "Photography"
+        }
+      ]
+    }
+  },
+  "qui_sommes_nous" : {
+    "nom_page" : "Qui Sommes Nous ?",
+    "banner" : {
+      "style" : "background-image:url(images/back-banner.jpg)"
+    }
+  }
+}
