@@ -6,6 +6,7 @@ function loadJsonFile(lang_request) {
         async: false,
         success: function (response) {
             json_content_page = response[0];
+            $("#lang_selected").val(response.lang_selected);
             change_langage(json_content_page, response);
             qui_sommes_nous_banner(json_content_page);
             home_propos_nous(json_content_page);
@@ -206,7 +207,7 @@ function qui_sommes_nous_portfolio(json_content_page) {
 } */
 
 $(document).ready(function () {
-    var json_content_page = loadJsonFile();
+    var json_content_page = loadJsonFile($("#lang_selected").val());
     /* $("#subscribe-form").submit(function (e) {
         e.preventDefault();
         subscribe_newsletter(json_content_page);

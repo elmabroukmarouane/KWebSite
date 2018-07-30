@@ -16,8 +16,7 @@ class HomeController extends Controller
     public function index()
     {
         if (!session()->has('lang') || session()->get('lang') == "undefined") {
-            session(['lang' => substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)]);
-            session()->save();
+            session()->put('lang', substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2));
         }
         $lang = session()->get('lang');
         $json_decode = $this->getLangage($lang);
@@ -30,8 +29,7 @@ class HomeController extends Controller
         if(isset($lang_request) && !empty($lang_request))
         {
             session()->forget('lang');
-            session(['lang' => $lang_request]);
-            session()->save();
+            session()->put('lang', $lang_request);
         }
         $lang = session()->get('lang');
         $json_decode = $this->getLangage($lang);

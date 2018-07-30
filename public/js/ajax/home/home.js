@@ -4,8 +4,9 @@ function loadJsonFile(lang_request) {
     url: "get-content-json/" + lang_request,
     type: "GET",
     async: false,
-    success: function(response) {
+    success: function (response) {
       json_content_page = response[0];
+      $("#lang_selected").val(response.lang_selected);
       change_langage(json_content_page, response);
       home_banner(json_content_page);
       home_propos_nous(json_content_page);
@@ -18,7 +19,7 @@ function loadJsonFile(lang_request) {
 
 function home_banner(json_content_page) {
   var html_home_banner = "";
-  $.each(json_content_page.home.banner, function(key, value) {
+  $.each(json_content_page.home.banner, function (key, value) {
     html_home_banner +=
       '<div style="' +
       value.style_banner +
@@ -113,7 +114,7 @@ function home_services(json_content_page) {
   );
   var html_home_services_items_nos_services = '<div class="row">';
   var count = 0;
-  $.each(json_content_page.home.services.items_nos_services, function(
+  $.each(json_content_page.home.services.items_nos_services, function (
     key,
     value
   ) {
@@ -160,7 +161,7 @@ function home_services(json_content_page) {
 function home_portfolio(json_content_page) {
   var html_home_portfolio_li_filter =
     '<li class="filter active" data-filter="all">All</li>';
-  $.each(json_content_page.home.portfolio.li_filter, function(key, value) {
+  $.each(json_content_page.home.portfolio.li_filter, function (key, value) {
     html_home_portfolio_li_filter +=
       '<li class="filter" data-filter=".' +
       value.item_filter +
@@ -171,7 +172,7 @@ function home_portfolio(json_content_page) {
   $("#home_portfolio_li_filter").html(html_home_portfolio_li_filter);
 
   var html_home_portfolio_portfolio_items = "";
-  $.each(json_content_page.home.portfolio.portfolio_items, function(
+  $.each(json_content_page.home.portfolio.portfolio_items, function (
     key,
     value
   ) {
@@ -219,9 +220,9 @@ function home_portfolio(json_content_page) {
   }
 }
 
-$(document).ready(function() {
-  var json_content_page = loadJsonFile();
-  $("#subscribe-form").submit(function(e) {
+$(document).ready(function () {
+  var json_content_page = loadJsonFile($("#lang_selected").val());
+  $("#subscribe-form").submit(function (e) {
     e.preventDefault();
     subscribe_newsletter(json_content_page);
   });

@@ -66,7 +66,7 @@ function header_json(json_content_page, response) {
         $("#li_menu_contact").removeAttr("class");
     }
     $("#menu_team").html(json_content_page.header.menu.content.team);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_team").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -76,9 +76,9 @@ function header_json(json_content_page, response) {
         $("#li_menu_assistant_it").removeAttr("class");
         $("#li_menu_blog").removeAttr("class");
         $("#li_menu_contact").removeAttr("class");
-    }
+    } */
     $("#menu_services").html(json_content_page.header.menu.content.services);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_services").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -88,9 +88,9 @@ function header_json(json_content_page, response) {
         $("#li_menu_assistant_it").removeAttr("class");
         $("#li_menu_blog").removeAttr("class");
         $("#li_menu_contact").removeAttr("class");
-    }
+    } */
     $("#menu_our_services").html(json_content_page.header.menu.content.our_services);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_our_services").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -100,9 +100,9 @@ function header_json(json_content_page, response) {
         $("#li_menu_assistant_it").removeAttr("class");
         $("#li_menu_blog").removeAttr("class");
         $("#li_menu_contact").removeAttr("class");
-    }
+    } */
     $("#menu_assistant_it").html(json_content_page.header.menu.content.assistant_it);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_assistant_it").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -112,9 +112,9 @@ function header_json(json_content_page, response) {
         $("#li_menu_home").removeAttr("class");
         $("#li_menu_blog").removeAttr("class");
         $("#li_menu_contact").removeAttr("class");
-    }
+    } */
     $("#menu_blog").html(json_content_page.header.menu.content.blog);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_blog").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -124,9 +124,9 @@ function header_json(json_content_page, response) {
         $("#li_menu_assistant_it").removeAttr("class");
         $("#li_menu_home").removeAttr("class");
         $("#li_menu_contact").removeAttr("class");
-    }
+    } */
     $("#menu_contact").html(json_content_page.header.menu.content.contact);
-    if (json_content_page.home.nom_page == response.nom_page) {
+    /* if (json_content_page.home.nom_page == response.nom_page) {
         $("#li_menu_contact").attr("class", "active");
         $("#li_menu_about_us").removeAttr("class");
         $("#li_menu_who_us").removeAttr("class");
@@ -136,7 +136,7 @@ function header_json(json_content_page, response) {
         $("#li_menu_assistant_it").removeAttr("class");
         $("#li_menu_blog").removeAttr("class");
         $("#li_menu_home").removeAttr("class");
-    }
+    } */
     /* ----------------- Menu End ----------------- */
 
     /* ----------------- Select Langage Start ----------------- */

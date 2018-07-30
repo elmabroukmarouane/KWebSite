@@ -1,4 +1,5 @@
 	<!--header area start-->
+	<input type="hidden" value="{{ session()->get('lang') }}" id="lang_selected">
 	<header id="main-header">
 	  	<div class="header clearfix">
 	  		<!-- top bar -->
